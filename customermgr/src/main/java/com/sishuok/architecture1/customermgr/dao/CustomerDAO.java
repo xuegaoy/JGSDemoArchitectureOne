@@ -1,10 +1,12 @@
 package com.sishuok.architecture1.customermgr.dao;
 
-
 import java.util.List;
+
+import org.springframework.stereotype.Repository;
 
 import com.sishuok.architecture1.customermgr.vo.CustomerModel;
 
+@Repository
 public interface CustomerDAO {
 	
 	/*
@@ -18,6 +20,6 @@ public interface CustomerDAO {
 	
 	public CustomerModel getByUuid(int uuid);
 	
-	public List<CustomerModel> getByCondition(CustomerModel cqm);
-	
+	public List<CustomerModel> getByConditionPage(CustomerModel cqm);
+
 }
