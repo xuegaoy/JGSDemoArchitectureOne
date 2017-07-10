@@ -1,22 +1,34 @@
 <?xml version="1.0"?>
-<project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>com.sishuok</groupId>
-		<artifactId>architecture1</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-	<groupId>com.sishuok</groupId>
-	<artifactId>goodsmgrweb</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>goodsmgrweb Maven Webapp</name>
-	<url>http://maven.apache.org</url>
-	<build>
-		<finalName>goodsmgrweb</finalName>
-		<plugins>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.sishuok</groupId>
+    <artifactId>architecture1</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.sishuok</groupId>
+  <artifactId>goodsmgrweb</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>goodsmgrweb Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  	<dependencies>
+		<dependency>
+			<groupId>com.sishuok</groupId>
+			<artifactId>goodsmgr</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sishuok</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+  <build>
+    <finalName>goodsmgrweb</finalName>
+    <plugins>
+
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
@@ -25,7 +37,7 @@
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<stopPort>9999</stopPort>
 					<webAppConfig>
-						<contextPath>/goodsmgrweb</contextPath>
+						<contextPath>/goods</contextPath>
 					</webAppConfig>
 					<connectors>
 						<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
@@ -36,5 +48,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+  </build>
 </project>
