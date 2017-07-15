@@ -1,0 +1,10 @@
+com\sishuok\architecture1\common\service\BaseService.class
+com\sishuok\architecture1\common\vo\BaseModel.class
+com\sishuok\pageutil\PagePlugin.class
+com\sishuok\architecture1\common\web\BaseWebModel.class
+com\sishuok\architecture1\common\service\IBaseService.class
+com\sishuok\pageutil\Page.class
+com\sishuok\util\json\JsonHelper.class
+com\sishuok\pageutil\ReflectHelper.class
+com\sishuok\util\format\DataFormateHelp.class
+com\sishuok\architecture1\common\dao\BaseDAO.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.sishuok.architecture1.common.AppTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.sishuok.architecture1.common.AppTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\work\java\jdk1.8.0_102\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\work\WorkSpaceJGS\project1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf538838195026014983.tmp"/>
+    <property name="classworlds.conf" value="C:\work\WorkSpaceJGS\project1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8413972141803462535.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\work\java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\work\java\jdk1.8.0_102\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Users\gaogao\AppData\Local\Microsoft\WindowsApps;;C:\work\eclipse\jee-oxygen;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="com.sishuok.architecture1.common.AppTest" name="testApp" time="0.005"/>
+  <testcase classname="com.sishuok.architecture1.common.AppTest" name="testApp" time="0.004"/>
 </testsuite>
